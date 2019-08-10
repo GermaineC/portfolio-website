@@ -2,6 +2,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   color: #feffff;
+  font-size: 24px;
+  font-weight: normal;
   background-color: #1f202b;
   width:100%;
   margin: 0 auto;
@@ -76,7 +78,7 @@ h1, h2, h3, h4, h5{
 }
 
 /**Portfolio Section**/
-#portfolio h2, #about h2{
+#portfolio h2, #about h2, #contact h2{
   font-family: 'Source Code Pro', monospace;
   font-size:36px;
   color:#f70074;
@@ -86,7 +88,6 @@ h1, h2, h3, h4, h5{
 
 #portfolio h3{
   font-weight: bold;
-  font-size:24px;
 }
 
 #portfolio h4{
@@ -95,7 +96,6 @@ h1, h2, h3, h4, h5{
 }
 
 #portfolio p{
-  font-size: 24px;
   weight:normal;
 }
 
@@ -129,4 +129,41 @@ h1, h2, h3, h4, h5{
   background-size: contain;
   height: 550px;
   margin-top: 50px;
+}
+
+#about h3{
+  font-weight: bold;
+  color:#1f202b;
+}
+
+#about p{
+  color:#1f202b;
+}
+
+/**Contact Section**/
+#contact h3{
+  font-weight: bold;
+}
+
+#contact h5{
+  font-size: 18px;
+  font-weight: normal;
+  clear: both;
+  text-align: center;
+}
+
+#contact .third-width{
+  padding:120px 0;
+  text-align: center;
+}
+
+#contact ul{
+  padding:0;
+}
+
+#contact ul li{
+  text-decoration: none;
+  display:inline-block;
+  padding:0 20px;
+  text-align: center;
 }
