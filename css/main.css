@@ -1,0 +1,132 @@
+/**Base Styles**/
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #feffff;
+  background-color: #1f202b;
+  width:100%;
+  margin: 0 auto;
+}
+
+/**GRID**/
+.full-width{
+  width:1200px;
+  margin:0 auto;
+}
+
+.half-width{
+  width:50%;
+  float: left;
+  height:inherit;
+}
+
+.third-width{
+  width:33%;
+  float:left;
+}
+
+/**HEADER STYLES**/
+header{
+  height: 75px;
+}
+
+header p{
+  font-size: 30px;
+  text-transform:lowercase;
+  margin: 19px 0 0 0;
+}
+
+header nav{
+  float:right;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding:0 23px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size:30px;
+  color: #feffff;
+}
+
+/**MAIN CONTENT**/
+h1, h2, h3, h4, h5{
+  margin:0;
+}
+/**Hero Image**/
+#hero{
+  height:645px;
+  background: url('../img/hero-background.png') no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+#hero h1{
+  font-size: 72px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight:normal;
+  align-self: center;
+  padding: 15% 0;
+}
+
+#hero h1 span{
+  color: #fa0075;
+}
+
+/**Portfolio Section**/
+#portfolio h2, #about h2{
+  font-family: 'Source Code Pro', monospace;
+  font-size:36px;
+  color:#f70074;
+  text-align: center;
+  padding:50px 0;
+}
+
+#portfolio h3{
+  font-weight: bold;
+  font-size:24px;
+}
+
+#portfolio h4{
+  font-weight: normal;
+  font-size:24px;
+}
+
+#portfolio p{
+  font-size: 24px;
+  weight:normal;
+}
+
+#portfolio .full-width{
+  height:350px;
+  padding:50px 0;
+}
+
+#first-project-thumbnail{
+  background: url('../img/rogue-pickings-thumbnail.png') no-repeat;
+  background-size: contain;
+}
+
+#second-project-thumbnail{
+  background: url('../img/jubilee-thumbnail.png') no-repeat;
+  background-size: contain;
+  width:45.8%;
+}
+
+#right-side-description{
+  width:45.8%;
+  padding-left: 50px;
+}
+#left-side-description{
+  padding-right: 50px;
+}
+
+/**About Section**/
+#about{
+  background: url('../img/about-me.png') no-repeat;
+  background-size: contain;
+  height: 550px;
+  margin-top: 50px;
+}
